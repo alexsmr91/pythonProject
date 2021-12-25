@@ -32,7 +32,7 @@ def sum_list_2(dataset: list) -> int:
 
 
 my_list = []  # Соберите нужный список по заданию
-for i in range(3,999,2):
+for i in range(3,1000,2):
     my_list.append(i**3)
 result_1 = sum_list_1(my_list)
 print(result_1)
