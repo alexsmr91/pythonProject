@@ -1,0 +1,63 @@
+C:\Users\Admin>pip freeze
+
+C:\Users\Admin>pip install pillow
+Collecting pillow
+  Downloading Pillow-9.0.0-cp39-cp39-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 1.7 MB/s
+Installing collected packages: pillow
+Successfully installed pillow-9.0.0
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\python\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\Admin>pip freeze
+Pillow==9.0.0
+
+C:\Users\Admin>pip install virtualenv
+Collecting virtualenv
+  Downloading virtualenv-20.13.0-py2.py3-none-any.whl (6.5 MB)
+     |████████████████████████████████| 6.5 MB 1.7 MB/s
+Collecting six<2,>=1.9.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting distlib<1,>=0.3.1
+  Downloading distlib-0.3.4-py2.py3-none-any.whl (461 kB)
+     |████████████████████████████████| 461 kB 6.4 MB/s
+Collecting platformdirs<3,>=2
+  Downloading platformdirs-2.4.1-py3-none-any.whl (14 kB)
+Collecting filelock<4,>=3.2
+  Downloading filelock-3.4.2-py3-none-any.whl (9.9 kB)
+Installing collected packages: six, platformdirs, filelock, distlib, virtualenv
+Successfully installed distlib-0.3.4 filelock-3.4.2 platformdirs-2.4.1 six-1.16.0 virtualenv-20.13.0
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\python\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\Admin\pyvenv1>pip freeze
+distlib==0.3.4
+filelock==3.4.2
+Pillow==9.0.0
+platformdirs==2.4.1
+six==1.16.0
+virtualenv==20.13.0
+
+C:\Users\Admin>mkdir pyvenv1
+
+C:\Users\Admin>cd pyvenv1
+
+C:\Users\Admin\pyvenv1>python -m venv env1
+
+C:\Users\Admin\pyvenv1>env1\Scripts\activate.bat
+
+(env1) C:\Users\Admin\pyvenv1>pip freeze
+
+(env1) C:\Users\Admin\pyvenv1>pip install Pillow==8
+Collecting Pillow==8
+  Downloading Pillow-8.0.0-cp39-cp39-win_amd64.whl (2.1 MB)
+     |████████████████████████████████| 2.1 MB 1.6 MB/s
+Installing collected packages: Pillow
+Successfully installed Pillow-8.0.0
+
+(env1) C:\Users\Admin\pyvenv1>pip freeze
+Pillow==8.0.0
+
+
+(env1) C:\Users\Admin\pyvenv1>deactivate.bat
+C:\Users\Admin\pyvenv1>
