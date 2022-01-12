@@ -8,7 +8,7 @@ print(kurs, date_value)
 kurs, date_value = currency_rates_adv("amd")
 print(kurs, date_value)
 
-kurs, date_value = currency_rates_adv("au")
+kurs, date_value = currency_rates_adv("aud")
 print(kurs, date_value)
 
 
