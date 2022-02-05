@@ -119,3 +119,4 @@ if __name__ == '__main__':
         wh.append(Copier(tps[0], random.choice(nms), sns[9], 1200, 'kk', laser='d'))
     except MyValueError:
         pass
+

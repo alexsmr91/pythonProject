@@ -12,3 +12,4 @@ if __name__ == "__main__":
         print(a / b)
     except MyDivisionByZeroException:
         pass
+

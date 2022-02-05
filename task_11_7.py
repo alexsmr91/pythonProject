@@ -24,3 +24,4 @@ if __name__ == '__main__':
     n2 = ComplexNumbers(3, 6)
     print(n1 * n2)
     print(n1 + n2)
+

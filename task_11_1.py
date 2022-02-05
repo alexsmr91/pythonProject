@@ -37,3 +37,4 @@ if __name__ == "__main__":
     for st in my_dates:
         my_date = MyDate(st)
         print(f'"{st}" {my_date.day}.{my_date.month}.{my_date.year}')
+
